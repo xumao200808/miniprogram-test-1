@@ -3,9 +3,9 @@
   <button bindtap='getDockCode'>{{Sao}}</button>
 </view>
 <view class='container'>
-  <button bindtap='getSavePath'>选择</button>
+  <button bindtap='getSavePath'>拍照</button>
 
-  <button  data-col-type='2' data-colType='1'  bindtap='toView'>下页</button>
+  <button  data-col-type='2' data-colType='1'  bindtap='toView'>跳转</button>
 </view>
 <view>
     <block wx:for="{{tempaths}}" wx:for-item="tempath" wx:key="*this">
